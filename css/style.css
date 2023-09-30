@@ -238,7 +238,6 @@ a {
   row-gap: 48px;
   column-gap: 24px;
   flex-shrink: 0;
-  width: calc((100% - 48) / 3);
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
@@ -253,6 +252,7 @@ a {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -270,7 +270,4 @@ a {
 }
 .footer-text {
   color: #f4f4fd;
-}
-.footer-container {
-  padding: 100px 0;
 }
