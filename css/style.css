@@ -182,8 +182,8 @@ a {
   display: flex;
   gap: 24px;
 }
-.future-item {
-  width: calc((100% - 72px) / 4);
+.futures-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .future-title {
   font-family: Roboto;
@@ -192,6 +192,8 @@ a {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+}
+.futures-title {
   margin-bottom: 8px;
 }
 .future {
