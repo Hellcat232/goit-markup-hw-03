@@ -264,7 +264,13 @@ a {
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
-  padding-bottom: 0px;
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
 }
 
 .name-category {
