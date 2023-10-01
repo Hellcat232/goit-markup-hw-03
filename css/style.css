@@ -264,22 +264,12 @@ a {
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
-  display: flex;
-  padding: 0px 16px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
+  border-top: none;
+  border: 1px solid #e7e9fc;
 }
 
 .name-category {
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 16px;
 }
 .section-portfolio-subtitle {
   margin-bottom: 8px;
