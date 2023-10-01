@@ -39,6 +39,9 @@ img {
 a {
   text-decoration: none;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -58,8 +61,10 @@ a {
 }
 .header-container {
   display: flex;
-  max-width: 100%;
+  width: 1158px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-nav-list {
   font-family: Roboto;
@@ -72,7 +77,8 @@ a {
   margin-right: 332px;
 }
 .header-nav-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-address-list {
   display: flex;
@@ -196,6 +202,9 @@ a {
 .futures-title {
   margin-bottom: 8px;
 }
+.notitle {
+  visibility: hidden;
+}
 .future {
   background-color: #ffffff;
 }
@@ -239,7 +248,6 @@ a {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  flex-shrink: 0;
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
