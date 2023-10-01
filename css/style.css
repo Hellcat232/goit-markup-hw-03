@@ -261,6 +261,7 @@ a {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  width: 1158px;
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
