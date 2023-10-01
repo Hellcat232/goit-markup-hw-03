@@ -84,9 +84,11 @@ a {
   display: flex;
   gap: 40px;
   margin-left: auto;
-  padding: 24px 0;
 }
-
+.header-address-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .main-section {
   padding: 188px 0;
 }
